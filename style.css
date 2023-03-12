@@ -1,14 +1,25 @@
 body {
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0;
+}
+
+.hero,
+.infor,
+.quote,
+.signup,
+.footer {
+    padding-left: 150px;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
 }
 
 .hero {
-    background-color: #1F2937;
     margin: 0;
-    padding-left: 150px;
     padding-top: 0;
     display: flex;
     flex-direction: column;
